@@ -1,0 +1,112 @@
+{
+  "563_puerto_a_b": {
+    "linea": "563 - A-B Puerto",
+    "destino": "Puerto (ida)",
+    "arribos": [
+      {
+        "tiempo": "17 min. aprox.",
+        "ramal": "AL PUERTO X A",
+        "actualizado": "19:11:19"
+      },
+      {
+        "tiempo": "46 min. aprox.",
+        "ramal": "AL PUERTO X B",
+        "actualizado": "19:11:19"
+      }
+    ],
+    "error": null
+  },
+  "563_camet_a_b": {
+    "linea": "563 - A-B Camet",
+    "destino": "Camet (ida)",
+    "arribos": [
+      {
+        "tiempo": "29 min. aprox.",
+        "ramal": "A CAMET X B",
+        "actualizado": "19:11:19"
+      },
+      {
+        "tiempo": "88 min. aprox.",
+        "ramal": "A CAMET X B",
+        "actualizado": "19:11:19"
+      }
+    ],
+    "error": null
+  },
+  "720_chapa": {
+    "linea": "720 - Por Chapa",
+    "destino": "Batan",
+    "arribos": [],
+    "error": "Sin unidades"
+  },
+  "720_parque": {
+    "linea": "720 - Por Parque",
+    "destino": "Centro",
+    "arribos": [],
+    "error": "Sin unidades"
+  },
+  "542_regional": {
+    "linea": "542 - A Regional",
+    "destino": "Regional (ida)",
+    "arribos": [
+      {
+        "tiempo": "13 min. aprox.",
+        "ramal": "AL REGIONAL X AQ",
+        "actualizado": "19:11:22"
+      },
+      {
+        "tiempo": "57 min. aprox.",
+        "ramal": "AL REGIONAL X AQAE",
+        "actualizado": "19:11:22"
+      },
+      {
+        "tiempo": "85 min. aprox.",
+        "ramal": "AL REGIONAL X AQAE",
+        "actualizado": "19:11:22"
+      }
+    ],
+    "error": null
+  },
+  "542_2abril": {
+    "linea": "542 - B 2 Abril",
+    "destino": "2 de Abril (vuelta)",
+    "arribos": [],
+    "error": "Sin unidades"
+  },
+  "525_p_hermoso": {
+    "linea": "525 - P. HERMOSO",
+    "destino": "P.HERMOSO (ida)",
+    "arribos": [
+      {
+        "tiempo": "56 min. aprox.",
+        "ramal": "A VALLE",
+        "actualizado": "19:11:23"
+      }
+    ],
+    "error": null
+  },
+  "525_centro": {
+    "linea": "525 - Centro",
+    "destino": "Centro (vuelta)",
+    "arribos": [],
+    "error": "Sin unidades"
+  },
+  "543_camet": {
+    "linea": "543 - Camet",
+    "destino": "Camet (ida)",
+    "arribos": [
+      {
+        "tiempo": "3 min. aprox.",
+        "ramal": "A CAMET",
+        "actualizado": "19:11:24"
+      }
+    ],
+    "error": null
+  },
+  "543_regional": {
+    "linea": "525 - Regional",
+    "destino": "Regional (vuelta)",
+    "arribos": [],
+    "error": "Sin unidades"
+  }
+}
