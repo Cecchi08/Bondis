@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  color: #222;
+  padding: 1em;
+}
+
+header {
+  background: #22543D;
+  color: white;
+  padding: 1em;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+h1{
+  font-family: Inter;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-left: 0.6em;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+.img-logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 8.5em;
+}
+
+#info {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 3em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.colectivo {
+  background: white;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.weather, .time{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.weather-icon{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1028px;
+  top: 29px;
+}
+
+#contenedor-colectivos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-items: center;
+  padding: 50px;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.linea-bondi {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  max-width: 350px; 
+  width: 350px;
+  min-height: 120px;
+}
+
+.linea-btn {
+  background-color: #a62828;
+  color: white;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 27px;
+  margin-bottom: 25px;
+  width: auto; 
+  user-select: none;
+  text-align: center;
+  align-self: flex-start; 
+  display: inline-block;  
+}
+
+
+.destino-fila {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
+  font-size: 24px;
+  line-height: 1.2;
+  padding: 3px 0;
+}
+
+.destino-nombre {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 600;
+  color: #333;
+  flex-shrink: 0; /* Para que no se reduzca */
+}
+
+.destino-tiempo {
+  white-space: nowrap;
+  text-align: right;
+  color: #555;
+  font-weight: 500;
+  min-width: 70px; /* Para que tiempos tengan espacio fijo */
+  flex-shrink: 0;
+}
+
+.btn-563 {
+  background-color: #174f81; /* azul */
+}
+
+.btn-720 {
+  background-color: #1c661f; /* verde */
+}
+
+.btn-542, .btn-525, .btn-543 {
+  background-color: #a62828; /* rojo original */
+}
+
+@keyframes pulso-suave {
+  0% {
+    box-shadow: 0 0 0px rgba(0, 150, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(0, 150, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(0, 150, 255, 0.5);
+  }
+}
+
+.linea-bondi.proximo {
+  animation: pulso-suave 1.5s infinite;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+
+.footer{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding: 1em;
+  background-color: aliceblue;
+  border-radius: 8px;
+}
+
+.div-footer{
+  display: flex;
+  align-items: center; /* opcional, para centrar verticalmente */
+  gap: 10px; /* opcional, para separar un poco */
+}
+
+p, a{
+  margin: 0;
+}
+
+a{
+  all: unset;
+}
