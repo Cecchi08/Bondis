@@ -4,12 +4,12 @@ const { exec } = require("child_process");
 const cors = require("cors");
 
 const app = express();
-const port = 3002;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
+
 const datosRouter = require("./public/api");
 app.use("/api", datosRouter);
 
@@ -39,7 +39,5 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// Iniciar servidor
-app.listen(port, () => {
-    console.log(`Servidor corriendo en http://localhost:${port}`);
-});
+// Exportar app para Vercel
+module.exports = app;
